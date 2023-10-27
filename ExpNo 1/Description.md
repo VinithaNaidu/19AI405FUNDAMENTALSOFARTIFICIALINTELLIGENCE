@@ -53,6 +53,7 @@ Now, the Stack becomes empty, which means we have visited all the nodes, and our
  <li>Find its Successors Or neighbors and Check whether the node is visited or not</li>
  <li>If Not Visited, add it to the STACK. Else Call The Function Again Until No more nodes needs to be visited.</li>
 </ol></B>
+
 ### Program
 ```
 #import defaultdict
@@ -77,11 +78,9 @@ visited=defaultdict(bool)
 path=[]
 traversedpath=dfs(graph,start,visited,path)
 print(traversedpath)
-
 ```
 
-<hr>
-<h3>Sample Input</h3>
+### Input
 <hr>
 8 9 <BR>
 A B <BR>
@@ -94,27 +93,14 @@ D F <BR>
 G F <BR>
 F H <BR>
 <hr>
-<h3>Sample Output</h3>
-<hr>
-['A', 'B', 'E', 'D', 'C', 'G', 'F', 'H']
 
-<hr>
+### Output
 
-<hr>
-<h3>Sample Input</h3>
-<hr>
-5 5 <BR>
-0 1 <BR>
-0 2 <BR>
-0 3 <BR>
-2 3 <BR>
-2 4 <BR>
-<hr>
-<h3>Sample Output</h3>
-<hr>
-['0', '1', '2', '3', '4']
+![image](https://github.com/VinithaNaidu/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/121166004/e08539be-8e90-4f39-a58f-34cb97dded30)
 
-<hr>
+
+
+
 <h3>Result:</h3>
 <hr>
 <p>Thus,a Graph was constructed and implementation of Depth First Search for the same graph was done successfully.</p>
