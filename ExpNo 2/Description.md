@@ -67,7 +67,10 @@ Now, Queue becomes empty, So, terminate these process of iteration.
 
 </ol>
 
-### Program 
+<hr>
+<h2>Program:</h2>
+<hr>
+  
 ```
 from collections import deque
 from collections import defaultdict
@@ -92,40 +95,30 @@ for i in range(e):
     graph[u].append(v)
     graph[v].append(u)
 
-start = '0'
+start = 'A'
 path = []
 visited = defaultdict(bool)
 traversedpath = bfs(graph,start,visited,path)
 print(traversedpath)
-
 ```
 
-### Input
+<h3>Input 1</h3>
 
-<hr>
-7 9 <BR>
-A B <BR>
-A C <BR>
-A F <BR>
-C E <BR>
-C F <BR>
-C D <BR>
-D E <BR>
-D G <BR>
-G F <BR>
-<hr>
+![image](https://github.com/SaiDarshan2003/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/94692595/d377c47c-e787-432a-af02-c533188f582c)
 
-### Output
-![image](https://github.com/VinithaNaidu/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/121166004/90b276c3-68af-4d87-bef7-7ff373a5e27e)
+<h3>Output 1</h3>
+
+![image](https://github.com/SaiDarshan2003/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/94692595/7b2e7063-14ff-4ddd-879e-48333092a224)
+
+<h3>Input 2</h3>
+
+![image](https://github.com/SaiDarshan2003/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/94692595/0cabdd4f-3375-4fd4-a4d9-3412867cb54b)
+
+<h3>Output 2</h3>
+
+![image](https://github.com/SaiDarshan2003/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/94692595/6054d488-db10-4144-a506-5765d44e7a2f)
 
 
 <h3>Result:</h3>
 <hr>
 <p>Thus,a Graph was constructed and implementation of Breadth First Search for the same graph was done successfully.</p>
-
-
-
-
-
-
-
